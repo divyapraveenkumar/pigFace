@@ -1,0 +1,96 @@
+.container
+{
+    border: 1px solid;
+    width: 500px;
+    height: 500px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    margin:10px; border: 3px solid black;
+    font-family: Arial, sans-serif;
+  }
+  
+  .pig {
+    position: relative;
+  }
+  
+  .face {
+    width: 150px;
+    height: 150px;
+    background-color: #fcb3b3;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ear {
+    width: 70px;
+    height: 90px;
+    background-color: #fcb3b3;
+    position: absolute;
+    border-radius: 70%;
+    transform: rotate(-45deg);
+  }
+  
+  .left-ear {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .right-ear {
+    top: -30px;
+    right: -30px;
+    transform: rotate(45deg);
+  }
+  
+  .eye {
+    width: 15px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+  }
+  
+  .left-eye {
+    left: 50px;
+  }
+  
+  .right-eye {
+    right: 50px;
+  }
+  
+  .nose {
+    width: 60px;
+    height: 40px;
+    background-color: #ff9999;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .nostril {
+    width: 10px;
+    height: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+  }
+  
+  .left-nostril {
+    left: 15px;
+  }
+  
+  .right-nostril {
+    right: 15px;
+  }
+  
